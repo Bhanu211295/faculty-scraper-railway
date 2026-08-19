@@ -1,0 +1,15 @@
+[build]
+# Use the Dockerfile
+dockerfile = "Dockerfile"
+
+[deploy]
+# Port the app runs on
+port = 8501
+# Start command
+startCommand = "streamlit run streamlit_app_advanced.py"
+
+[env]
+# Required environment variables
+GEMINI_API_KEY = ""
+GROQ_API_KEY = ""
+ANTHROPIC_API_KEY = ""
