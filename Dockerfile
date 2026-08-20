@@ -22,7 +22,6 @@ RUN apt-get update && apt-get install -y \
     wget \
     ca-certificates \
     fonts-liberation \
-    libappindicator1 \
     libc6 \
     libgcc1 \
     libstdc++6 \
